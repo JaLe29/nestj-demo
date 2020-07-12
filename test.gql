@@ -1,0 +1,22 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type MatchDto {
+  level: Float!
+  time: Float!
+  user: String!
+  userConnection: UserDto!
+}
+
+type Mutation {
+  finishSingleMatch(time: Int!, level: Int!): Boolean!
+}
+
+type Query {
+  singleMatchsLeaderBoards: [MatchDto!]!
+}
+
+type UserDto {
+  name: String!
+}
