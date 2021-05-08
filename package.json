@@ -58,7 +58,7 @@
 		"rxjs": "^6.5.5",
 		"sharp": "^0.25.2",
 		"type-graphql": "^0.17.5",
-		"typeorm": "^0.2.20",
+		"typeorm": "^0.2.25",
 		"unique-names-generator": "^4.3.0"
 	},
 	"devDependencies": {
